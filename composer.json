@@ -14,5 +14,12 @@
             "email": "hlackner@schueler.hakzell.at"
         }
     ],
-    "require": {}
+    "repositories": [{
+        "type": "git",
+        "url": "git@github.com:alisatresnjic/weather.git"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "alisatresnjic/weather": "~1.1.0"
+    }
 }
