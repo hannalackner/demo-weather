@@ -1,0 +1,18 @@
+{
+    "name": "hannalackner/demowetter",
+    "description": "DemoWetter",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hannalackner\\Demowetter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hanna Lackner",
+            "email": "hlackner@schueler.hakzell.at"
+        }
+    ],
+    "require": {}
+}
