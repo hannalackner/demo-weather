@@ -1,5 +1,35 @@
 {
-    "packages": [],
+    "packages": [
+        {
+            "name": "alisatresnjic/weather",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alisatresnjic/weather.git",
+                "reference": "7ab0381d11014411d0effacae3ef82fff4a89d46"
+            },
+            "time": "2024-05-07T06:49:43+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Alisatresnjic\\Weather\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alisatresnjic",
+                    "email": "atresnjic@schueler.hakzell.at"
+                }
+            ],
+            "description": "Weather",
+            "install-path": "../alisatresnjic/weather"
+        }
+    ],
     "dev": true,
     "dev-package-names": []
 }

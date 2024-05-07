@@ -11,12 +11,20 @@ class ComposerStaticInitd7ad05331b20900cf910d91dbcd1a4d7
         array (
             'Hannalackner\\Demowetter\\' => 24,
         ),
+        'A' => 
+        array (
+            'Alisatresnjic\\Weather\\' => 22,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Hannalackner\\Demowetter\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Alisatresnjic\\Weather\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alisatresnjic/weather/src',
         ),
     );
 

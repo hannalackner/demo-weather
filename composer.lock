@@ -4,11 +4,38 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "927466df6924b211bce3ddc46c8cb421",
-    "packages": [],
+    "content-hash": "2b2a5ee9e8cf2569800cfd24a3ada5dc",
+    "packages": [
+        {
+            "name": "alisatresnjic/weather",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alisatresnjic/weather.git",
+                "reference": "7ab0381d11014411d0effacae3ef82fff4a89d46"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alisatresnjic\\Weather\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alisatresnjic",
+                    "email": "atresnjic@schueler.hakzell.at"
+                }
+            ],
+            "description": "Weather",
+            "time": "2024-05-07T06:49:43+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
